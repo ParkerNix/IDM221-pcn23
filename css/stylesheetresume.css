@@ -6,12 +6,12 @@
 
  a:active { color: rgb(0, 217, 255); }
 
- .Intro {background-color: wheat; }
+ .Intro {background-color: wheat; border: 5px outset silver; }
 
- .Education { background-color: rgb(148, 221, 221); }
+ .Education { background-color: rgb(148, 221, 221); border: 5px outset silver; }
 
- .Experience { background-color: rgb(233, 116, 95); }
+ .Experience { background-color: rgb(233, 116, 95); border: 5px outset silver; }
 
- .Volunteer { background-color: rgb(148, 221, 221); }
+ .Volunteer { background-color: rgb(148, 221, 221); border: 5px outset silver; }
 
- .Skills {background-color: wheat; }
+ .Skills {background-color: wheat; border: 5px outset silver; }
