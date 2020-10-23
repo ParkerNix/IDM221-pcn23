@@ -1,11 +1,17 @@
-a:link { color: blue; }
+ a:link { color: rgb(0, 89, 255); }
 
-a:visited { color: #2edb00; }
+ a:visited { color: rgb(132, 0, 255); }
 
-a:hover { color: #004da7; }
+ a:hover { color: rgb(255, 0, 98); }
 
-a:active { color: #ffc700; }
+ a:active { color: rgb(0, 217, 255); }
 
-p.primary { color: rgb(50, 100, 50); }
+ .Intro {background-color: wheat; }
 
-#Education {background-color: aqua;}
+ .Education { background-color: rgb(148, 221, 221); }
+
+ .Experience { background-color: rgb(233, 116, 95); }
+
+ .Volunteer { background-color: rgb(148, 221, 221); }
+
+ .Skills {background-color: wheat; }
