@@ -15,3 +15,13 @@
  .Volunteer { background-color: rgb(148, 221, 221); }
 
  .Skills {background-color: wheat; }
+
+ ul.navlist {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .navlist li {
+     display: inline-block;
+ }
