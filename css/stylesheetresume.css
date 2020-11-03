@@ -6,15 +6,11 @@
 
  a:active { color: rgb(0, 217, 255); }
 
- .Intro {background-color: wheat; text-align: center; }
+ .Intro, .Skills {background-color: wheat; text-align: center; }
 
- .Education { background-color: rgb(148, 221, 221); }
+ .Education, .Volunteer { background-color: rgb(148, 221, 221); }
 
  .Experience { background-color: rgb(233, 116, 95); }
-
- .Volunteer { background-color: rgb(148, 221, 221); }
-
- .Skills {background-color: wheat; }
 
  ul.navlist {
      margin: 0;
@@ -24,5 +20,5 @@
 
  .navlist li {
      display: inline-block;
-     background-color: slategray;
+     background:  lightgray;
  }
