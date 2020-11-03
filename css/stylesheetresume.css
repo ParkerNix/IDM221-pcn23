@@ -24,4 +24,5 @@
 
  .navlist li {
      display: inline-block;
+     background-color: slategray;
  }
