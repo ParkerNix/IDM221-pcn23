@@ -1,3 +1,17 @@
+ font-face {
+     font-family: 'open_sans';
+     src: url(../opensans-regular-webfont.woff2) format(woff2);
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ font-face {
+     font-family: 'open-sans';
+     src: url(../opensans-bold-webfont.woff2) format(woff2);
+     font-weight: bold;
+     font-style: normal;
+ }
+ 
  a:link { color: rgb(0, 89, 255); }
 
  a:visited { color: rgb(132, 0, 255); }
@@ -21,4 +35,8 @@
  .navlist li {
      display: inline-block;
      background:  lightgray;
+ }
+
+ p {
+     font-family: Open_sans, Arial, Helvetica, sans-serif;
  }
