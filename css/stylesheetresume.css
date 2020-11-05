@@ -34,7 +34,9 @@
 
  a:active { color: rgb(0, 217, 255); }
 
- .Intro, .Skills {background-color: wheat; text-align: center; }
+ .Intro, .Skills { background-color: wheat; }
+ 
+ .Intro { text-align: center;}
 
  .Education, .Volunteer { background-color: rgb(148, 221, 221); }
 
@@ -51,7 +53,7 @@
      background:  lightgray;
  }
 
- p {
+ p, a, li {
      font-family: open_sans, Arial, Helvetica, sans-serif;
  }
 
