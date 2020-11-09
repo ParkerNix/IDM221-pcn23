@@ -14,7 +14,7 @@
 
  @font-face {
      font-family: 'poppins';
-     src: url('../Fonts/poppins-regular-webfont.woff2')  format('woff2');
+     src: url('../Fonts/poppins-regular-webfont.woff2') format('woff2');
      font-weight: normal;
      font-style: normal;
  }
@@ -34,6 +34,10 @@
 
  a:active { color: rgb(0, 217, 255); }
 
+ div {
+        box-sizing: border-box; 
+        padding: 1rem; }
+
  .Intro, .Skills { background-color: wheat; }
  
  .Intro { text-align: center;}
@@ -42,15 +46,54 @@
 
  .Experience { background-color: rgb(233, 116, 95); }
 
- ul.navlist {
+ nav {
+     background-color: lightcoral;
      margin: 0;
      padding: 0;
+ }
+
+ .logo {
+     display: inline;
+ }
+
+ .parker {
+     display: inline;
+     float: left;
+     margin: 0;
+     padding: 1rem;
+ }
+
+ ul.navlist {
      list-style: none;
+     overflow: hidden;
+     display: inline;
+     padding: 1rem;
  }
 
  .navlist li {
-     display: inline-block;
-     background:  lightgray;
+     font-size: 1.5rem;
+     font-weight: bold;
+     float: right;
+     padding: 1rem;
+ }
+
+ .navlist li a {
+     text-align: center;
+     padding: .875rem 1rem;
+ }
+
+ .navlist li a:hover{
+     background-color: rgb(194, 106, 106);
+ }
+ a {
+     text-decoration: none;
+ }
+ .parker {
+    font-size: 3rem;
+ }
+
+ .abouttext {
+     background-color: lightcoral;
  }
 
  p, a, li {
