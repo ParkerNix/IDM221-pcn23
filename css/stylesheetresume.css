@@ -1,27 +1,27 @@
  @font-face {
-     font-family: "open_sans";
-     src: url(../fonts/opensans-regular-webfont.woff2) format('woff2');
+     font-family: 'open_sans';
+     src: url('../fonts/opensans-regular-webfont.woff2') format('woff2');
      font-weight: normal;
      font-style: normal;
  }
  
  @font-face {
-     font-family: "open-sans";
-     src: url(../fonts/opensans-bold-webfont.woff2) format('woff2');
+     font-family: 'open-sans';
+     src: url('../fonts/opensans-bold-webfont.woff2') format('woff2');
      font-weight: bold;
      font-style: normal;
  }
 
  @font-face {
-     font-family: "poppins";
-     src: url(../fonts/poppins-regular-webfont.woff2)  format('woff2');
+     font-family: 'poppins';
+     src: url('../fonts/poppins-regular-webfont.woff2')  format('woff2');
      font-weight: normal;
      font-style: normal;
  }
 
  @font-face {
-     font-family: "poppins";
-     src: url(../fonts/poppins-bold-webfont.woff2) format('woff2');
+     font-family: 'poppins';
+     src: url('../fonts/poppins-bold-webfont.woff2') format('woff2');
      font-weight: bold;
      font-style: normal;
  }
@@ -54,9 +54,9 @@
  }
 
  p, a, li {
-     font-family: "open_sans", Arial, Helvetica, sans-serif;
+     font-family: 'open_sans', Arial, Helvetica, sans-serif;
  }
 
  h1, h2, h3 {
-     font-family: "poppins", Arial, Helvetica, sans-serif;
+     font-family: 'poppins', Arial, Helvetica, sans-serif;
  }
