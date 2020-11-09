@@ -47,47 +47,41 @@
  .Experience { background-color: rgb(233, 116, 95); }
 
  nav {
-     background-color: lightcoral;
-     margin: 0;
-     padding: 0;
+     background-color: lightgrey;
+     position: fixed;
+     display: inline-block;
  }
 
  .logo {
-     display: inline;
+     display: inline-block;
  }
 
  .parker {
-     display: inline;
-     float: left;
+     display: inline-block;
      margin: 0;
-     padding: 1rem;
  }
 
  ul.navlist {
      list-style: none;
      overflow: hidden;
-     display: inline;
-     padding: 1rem;
+     display: inline-block;
+     margin: 0;
  }
 
  .navlist li {
      font-size: 1.5rem;
      font-weight: bold;
-     float: right;
-     padding: 1rem;
- }
-
- .navlist li a {
-     text-align: center;
-     padding: .875rem 1rem;
+     display: inline-block;
  }
 
  .navlist li a:hover{
-     background-color: rgb(194, 106, 106);
+     background-color: rgb(168, 168, 168);
  }
+
  a {
      text-decoration: none;
  }
+
  .parker {
     font-size: 3rem;
  }
