@@ -1,0 +1,9 @@
+.header header {
+    background-color: #18354a;
+    border: 0.0625rem solid #ffc700;
+    color: #ffc700;
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    max-width: 68.75rem;
+    padding: 2rem;
+    }
