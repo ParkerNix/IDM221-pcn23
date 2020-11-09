@@ -48,7 +48,7 @@
 
  nav {
      background-color: lightgrey;
-     position: fixed;
+     position: sticky;
      display: inline-block;
  }
 
