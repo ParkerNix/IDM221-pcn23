@@ -6,7 +6,7 @@
  }
  
  @font-face {
-     font-family: 'open-sans';
+     font-family: 'open_sans';
      src: url('../fonts/opensans-bold-webfont.woff2') format('woff2');
      font-weight: bold;
      font-style: normal;
