@@ -26,6 +26,10 @@
      font-style: normal;
  }
 
+ html {
+    box-sizing: border-box; 
+    padding: 1rem; }
+
  a:link { color: rgb(0, 89, 255); }
 
  a:visited { color: rgb(132, 0, 255); }
@@ -34,9 +38,9 @@
 
  a:active { color: rgb(0, 217, 255); }
 
- html {
-        box-sizing: border-box; 
-        padding: 1rem; }
+ .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
+     padding: 1rem;
+ }
 
  .Intro, .Skills { background-color: wheat; }
  
@@ -92,10 +96,6 @@
 
  .navlist li a:hover{
      background-color: rgb(240, 240, 240);
- }
-
- .navlist a {
-     text-decoration
  }
 
  a {
