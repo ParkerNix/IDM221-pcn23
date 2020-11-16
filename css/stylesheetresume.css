@@ -34,7 +34,7 @@
 
  a:active { color: rgb(0, 217, 255); }
 
- div {
+ html {
         box-sizing: border-box; 
         padding: 1rem; }
 
@@ -50,28 +50,39 @@
      background-color: lightgrey;
      position: sticky;
      display: inline-block;
+     width: 99%;
+     border: 2px solid lightblue;
  }
 
  .logo {
      display: inline-block;
+     position: relative;
+     top: .25rem;
  }
 
  .parker {
      display: inline-block;
      margin: 0;
+     position: relative;
+     bottom: 1rem;
+     border: 2px solid orange;
  }
 
  ul.navlist {
      list-style: none;
-     overflow: hidden;
-     display: inline-block;
+     display: inline;
      margin: 0;
+     position: relative;
+     bottom: 1rem;
+     border: 2px solid green;
  }
 
  .navlist li {
      font-size: 1.5rem;
      font-weight: bold;
-     display: inline-block;
+     display: inline;
+     padding-right: 1rem;
+     border: 2px solid coral;
  }
 
  .navlist li a:hover{
@@ -84,6 +95,7 @@
 
  .parker {
     font-size: 3rem;
+    border: yellow;
  }
 
  .abouttext {
