@@ -66,6 +66,7 @@
      position: relative;
      bottom: 1rem;
      border: 2px solid orange;
+     font-size: 3rem;
  }
 
  ul.navlist {
@@ -91,11 +92,6 @@
 
  a {
      text-decoration: none;
- }
-
- .parker {
-    font-size: 3rem;
-    border: yellow;
  }
 
  .abouttext {
