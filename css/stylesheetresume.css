@@ -61,7 +61,7 @@
  }
 
  .parker {
-     display: inline-block;
+     display: inline;
      margin: 0;
      position: relative;
      bottom: 1rem;
