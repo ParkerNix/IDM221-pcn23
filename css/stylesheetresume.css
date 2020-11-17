@@ -68,7 +68,7 @@
      margin: 0;
      position: relative;
      /*border: 2px solid orange;*/
-     font-size: 4rem;
+     font-size: 3.5rem;
  }
 
  .parker a:link, .parker a:visited {
@@ -84,15 +84,15 @@
  }
 
  .navlist li {
-     font-size: 2rem;
+     font-size: 1.70rem;
      font-weight: bold;
      display: inline;
      padding-right: 1rem;
      /*border: 2px solid coral;*/
  }
 
- .navlist li a:hover{
-     /*background-color: rgb(240, 240, 240);*/
+ .welcome {
+     float: center;
  }
 
  a {
@@ -101,6 +101,18 @@
 
  .abouttext {
      background-color: lightcoral;
+ }
+
+ p, li {
+     font-size: 1.60rem;
+ }
+
+ h1 {
+     font-size: 2rem;
+ }
+ 
+ h2 {
+     font-size: 1.80rem;
  }
 
  p, a, li {
