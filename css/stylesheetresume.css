@@ -53,16 +53,16 @@
  nav {
      background-color: lightgrey;
      position: sticky;
-     display: inline-block;
+     display: inline;
      width: 100%;
      /*border: 2px solid lightblue;*/
  }
 
  .logo {
+     background-color: lightgray;
      display: inline;
-     position: relative;
-     top: 1rem;
-     border: 2px solid black;
+     margin: 1rem 1rem 0 1rem;
+     /*border: 2px solid black;*/
  }
 
  .parker {
