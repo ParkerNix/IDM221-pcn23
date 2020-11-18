@@ -30,9 +30,7 @@
     box-sizing: border-box; 
     padding: 1rem; }
 
- a:link { color: rgb(0, 89, 255); }
-
- a:visited { color: rgb(132, 0, 255); }
+ a:link, a:visited { color: rgb(0, 89, 255); }
 
  a:hover { color: #43c956; }
 
@@ -69,11 +67,9 @@
      position: relative;
      /*border: 2px solid orange;*/
      font-size: 3.5rem;
- }
-
- .parker a:link, .parker a:visited {
      color: black;
  }
+
 
  ul.navlist {
      list-style: none;
@@ -119,6 +115,6 @@
      font-family: 'open_sans', Arial, Helvetica, sans-serif;
  }
 
- h1, h2, h3 {
+ .parker, h1, h2, h3 {
      font-family: 'poppins', Arial, Helvetica, sans-serif;
  }
