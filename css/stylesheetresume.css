@@ -49,6 +49,35 @@
 
  a.navwork:active { color: #8989ff; }
 
+ .work p, .work h1, .work h2 {
+     color: white;
+ }
+
+ .workbody {
+     padding: 10rem 0 0;
+ }
+
+ .workbody h1, .workbody h2, .workbody p {
+     text-align: center;
+     padding: 1rem;
+ }
+
+ .workbody img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .first, .redesign, .teado {
+     width: 50%;
+     background-color: #8989ff;
+ }
+
+ .redesign {
+     position: relative;
+     left: 50%;
+ }
+
  .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
      padding: 1rem;
  }
@@ -97,7 +126,7 @@
      padding: 0 .25rem 0 1rem;
      position: relative;
      float: right;
-     background-color: rgba(211, 211, 211, 0.705);
+     background-color: rgba(255, 255, 255, 0.705);
      /*border: 2px solid green;*/
  }
 
