@@ -69,13 +69,13 @@
  }
 
  .first, .redesign, .teado {
-     width: 50%;
+     width: 75%;
      background-color: #8989ff;
  }
 
  .redesign {
      position: relative;
-     left: 50%;
+     left: 25%;
  }
 
  .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
