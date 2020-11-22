@@ -26,57 +26,78 @@
      font-style: normal;
  }
 
+ .home {
+     position: relative;
+     bottom: .85rem;
+ }
+
  html {
     box-sizing: border-box; 
     padding: 1rem; }
 
+    body {
+        background-color: black;
+    }
+
  a:link, a:visited { color: rgb(0, 89, 255); }
 
- a:hover { color: #43c956; }
-
  a:active { color: rgb(0, 217, 255); }
+ 
+ a.navabout:active  { color: coral; }
+
+ a.navresume:active { color: #b1f4b6; }
+
+ a.navwork:active { color: #8989ff; }
 
  .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
      padding: 1rem;
  }
 
- .Intro, .Skills { background-color: wheat; }
+ .Intro, .Skills { background-color: #b1f4b6; }
  
- .Intro { text-align: center;}
+ .Intro { text-align: center; 
+    Padding-top: 7rem;
+ }
 
  .Education, .Volunteer { background-color: rgb(148, 221, 221); }
 
- .Experience { background-color: rgb(233, 116, 95); }
+ .Experience { background-color: #8989ff; }
 
  nav {
-     background-color: lightgrey;
-     position: sticky;
-     display: inline;
+     position: fixed;
      width: 100%;
+     z-index: 10;
      /*border: 2px solid lightblue;*/
  }
 
  .logo {
      display: inline;
-     width: 150px;
+     width: 100px;
+     padding: .5rem 1rem 1rem;
+     float: left;
      /*border: 2px solid black;*/
  }
 
  .parker {
      display: inline;
+     float: left;
      margin: 0;
+     padding: 1.5rem 1rem 1rem;
      position: relative;
      /*border: 2px solid orange;*/
-     font-size: 3.5rem;
-     color: black;
+     font-size: 3.3rem;
+     color: white;
  }
 
 
  ul.navlist {
      list-style: none;
      display: inline;
-     margin: 0;
+     margin: 1rem 3rem 1rem;
+     padding: 0 .25rem 0 1rem;
      position: relative;
+     float: right;
+     background-color: rgba(211, 211, 211, 0.705);
      /*border: 2px solid green;*/
  }
 
@@ -88,16 +109,27 @@
      /*border: 2px solid coral;*/
  }
 
- .welcome {
-     
+ .greeting {
+     text-align: center;
+     position: relative;
+     top: 20rem;
+     color: white;
  }
 
  a {
      text-decoration: none;
  }
 
+ .aboutmoi {
+     background-color: coral;
+ }
+ .aboutme {
+     padding: 10rem 1rem 1rem;
+ }
+
  .abouttext {
-     background-color: lightcoral;
+     position: relative;
+     left: -1rem;
  }
 
  p, li {
