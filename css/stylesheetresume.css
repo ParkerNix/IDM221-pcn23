@@ -68,18 +68,28 @@
      margin-right: auto;
  }
 
+ .task {
+     position: relative;
+     bottom: 3rem;
+    /* padding: .325rem 0 .325rem;*/
+ }
+
+ .wireframe {
+     position: relative;
+     top: 3.3rem;
+ }
  .task, .sitemap, .wireframe {
-     display: block;
+     display: inline-block;
  }
  .first, .redesign, .teado, .task, .sitemap, .wireframe {
      width: 75%;
      background-color: #8989ff;
  }
 
- .redesign {
+ /*.redesign, .task, .wireframe {
      position: relative;
      left: 25%;
- }
+ }*/
 
  .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
      padding: 1rem;
