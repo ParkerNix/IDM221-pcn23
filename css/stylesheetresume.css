@@ -86,10 +86,10 @@
      background-color: #8989ff;
  }
 
- /*.redesign, .task, .wireframe {
+ .redesign, .task, .wireframe {
      position: relative;
      left: 25%;
- }*/
+ }
 
  .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
      padding: 1rem;
