@@ -49,11 +49,11 @@
 
  a.navwork:active { color: #8989ff; }
 
- .work p, .work h1, .work h2 {
+ .work p, .work h1, .work h2, .parker, .greeting, .workfirst {
      color: white;
  }
 
- .workbody {
+ .workbody, .workfirst {
      padding: 10rem 0 0;
  }
 
@@ -68,9 +68,16 @@
      margin-right: auto;
  }
 
- .first, .redesign, .teado {
+ .first, .redesign, .teado, .task, .sitemap, .wireframe {
      width: 75%;
      background-color: #8989ff;
+ }
+
+ .task, .sitemap, .wireframe {
+     border-radius: 50%;
+     height: 30rem;
+     width: 30rem;
+     text-align: center;
  }
 
  .redesign {
@@ -101,7 +108,7 @@
 
  .logo {
      display: inline;
-     width: 100px;
+     width: 6.25rem;
      padding: .5rem 1rem 1rem;
      float: left;
      /*border: 2px solid black;*/
@@ -115,14 +122,13 @@
      position: relative;
      /*border: 2px solid orange;*/
      font-size: 3.3rem;
-     color: white;
  }
 
 
  ul.navlist {
      list-style: none;
      display: inline;
-     margin: 1rem 3rem 1rem;
+     margin: 1.7rem 3rem 1rem;
      padding: 0 .25rem 0 1rem;
      position: relative;
      float: right;
@@ -142,7 +148,6 @@
      text-align: center;
      position: relative;
      top: 20rem;
-     color: white;
  }
 
  a {
