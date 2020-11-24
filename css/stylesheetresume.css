@@ -57,7 +57,7 @@
      padding: 10rem 0 0;
  }
 
- .workbody h1, .workbody h2, .workbody p {
+ .workbody h1, .workbody h2, .workbody p, .workfirst h1, .workfirst h2, .workfirst p {
      text-align: center;
      padding: 1rem;
  }
@@ -68,16 +68,12 @@
      margin-right: auto;
  }
 
+ .task, .sitemap, .wireframe {
+     display: block;
+ }
  .first, .redesign, .teado, .task, .sitemap, .wireframe {
      width: 75%;
      background-color: #8989ff;
- }
-
- .task, .sitemap, .wireframe {
-     border-radius: 50%;
-     height: 30rem;
-     width: 30rem;
-     text-align: center;
  }
 
  .redesign {
