@@ -76,9 +76,7 @@
      position: relative;
      top: 3.3rem;
  }
- .task, .middle , .ending {
-     display: inline-block;
- }
+
  .first, .redesign, .teado, .task, .middle , .ending {
      width: 75%;
      background-color: #8989ff;
