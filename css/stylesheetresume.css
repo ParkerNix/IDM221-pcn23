@@ -49,44 +49,42 @@
 
  a.navwork:active { color: #8989ff; }
 
- .work p, .work h1, .work h2, .parker, .greeting, .workfirst {
+ .work p, .work h1, .work h2, .parker, .greeting, .casestudy {
      color: white;
  }
 
- .workbody, .workfirst {
+ .workbody, .casestudy {
      padding: 10rem 0 0;
  }
 
- .workbody h1, .workbody h2, .workbody p, .workfirst h1, .workfirst h2, .workfirst p {
+ .workbody h1, .workbody h2, .workbody p, .casestudy h1, .casestudy h2, .casestudy p {
      text-align: center;
      padding: 1rem;
  }
 
- .workbody img {
+ .workbody img, .casestudy img {
      display: block;
      margin-left: auto;
      margin-right: auto;
  }
 
- .task {
-     position: relative;
-     bottom: 3rem;
-    /* padding: .325rem 0 .325rem;*/
+ .task, .ending {
+    margin: 0 0 3rem;
  }
 
- .wireframe {
+ .ending {
      position: relative;
      top: 3.3rem;
  }
- .task, .sitemap, .wireframe {
+ .task, .middle , .ending {
      display: inline-block;
  }
- .first, .redesign, .teado, .task, .sitemap, .wireframe {
+ .first, .redesign, .teado, .task, .middle , .ending {
      width: 75%;
      background-color: #8989ff;
  }
 
- .redesign, .task, .wireframe {
+ .redesign, .task, .ending {
      position: relative;
      left: 25%;
  }
