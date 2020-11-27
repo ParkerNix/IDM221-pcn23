@@ -36,7 +36,7 @@
     padding: 1rem; }
 
     body {
-        background-color: black;
+        background-image: url('../Images/starz.png');
     }
 
  a:link, a:visited { color: rgb(0, 89, 255); }
