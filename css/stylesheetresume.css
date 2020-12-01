@@ -37,6 +37,8 @@
 
     body {
         background-image: url('../Images/starz.png');
+        padding: 0;
+        margin: 0;
     }
 
  a:link, a:visited { color: rgb(0, 89, 255); }
@@ -53,48 +55,53 @@
      color: white;
  }
 
+ .work h2, .casestudy h2 {
+     margin: 1rem 0 0
+ }
+
+ .work p, .casestudy p {
+     margin: 0 0 1rem;
+ }
+
  .workbody, .casestudy {
-     padding: 10rem 0 0;
+     padding: 4.1rem 0 0;
+ }
+
+ .workbody h1, .workbody h2, .casestudy h1, .casestudy h2 {
+     text-align: center;
  }
 
  .workbody h1, .workbody h2, .workbody p, .casestudy h1, .casestudy h2, .casestudy p {
-     text-align: center;
      padding: 1rem;
  }
-
+ 
  .workbody img, .casestudy img {
      display: block;
      margin-left: auto;
      margin-right: auto;
  }
 
- .task, .ending {
-    margin: 0 0 3rem;
+ .task, .middle, .ending {
+    margin: 0 0 1rem;
  }
 
- .ending {
-     position: relative;
-     top: 1.4rem;
+ .teado p {
+     margin-bottom: 0;
  }
 
  .first, .redesign, .teado, .task, .middle , .ending {
-     width: 75%;
      background-color: #8989ff;
  }
 
- .redesign, .task, .ending {
-     position: relative;
-     left: 25%;
- }
-
  .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
-     padding: 1rem;
+     padding: .01rem 1rem;
  }
 
  .Intro, .Skills { background-color: #b1f4b6; }
  
- .Intro { text-align: center; 
-    Padding-top: 7rem;
+ .Intro { text-align: center;
+    position: relative; 
+    top: 4.75rem;
  }
 
  .Education, .Volunteer { background-color: rgb(148, 221, 221); }
@@ -103,54 +110,38 @@
 
  nav {
      position: fixed;
-     width: 100%;
      z-index: 10;
-     /*border: 2px solid lightblue;*/
+     background-color: rgba(255, 255, 255, 0.705);
  }
 
  .logo {
      display: inline;
-     width: 6.25rem;
-     padding: .5rem 1rem 1rem;
+     width: 3.25rem;
+     padding: .3rem 0 .5rem .75rem;
      float: left;
-     /*border: 2px solid black;*/
  }
-
- .parker {
-     display: inline;
-     float: left;
-     margin: 0;
-     padding: 1.5rem 1rem 1rem;
-     position: relative;
-     /*border: 2px solid orange;*/
-     font-size: 3.3rem;
- }
-
 
  ul.navlist {
      list-style: none;
      display: inline;
-     margin: 2.7rem 3rem 1rem;
-     padding: 0 .25rem 0 1rem;
+     margin: 1rem .5rem 1rem 0;
+     padding: 0 0 0 1rem;
      position: relative;
      float: right;
-     top: 0;
-     background-color: rgba(255, 255, 255, 0.705);
-     /*border: 2px solid green;*/
+     right: 0;
  }
 
  .navlist li {
-     font-size: 1.70rem;
+     font-size: 1.5rem;
      font-weight: bold;
      display: inline;
-     padding-right: 1rem;
-     /*border: 2px solid coral;*/
+     padding-right: .3rem;
  }
 
  .greeting {
      text-align: center;
      position: relative;
-     top: 20rem;
+     top: 10rem;
  }
 
  a {
@@ -159,26 +150,31 @@
 
  .aboutmoi {
      background-color: coral;
+     position: relative;
+     top: 4.75rem;
+     margin-bottom: 4.75rem;
  }
  .aboutme {
-     padding: 10rem 1rem 1rem;
+     padding: 1rem 1rem 0;
  }
 
  .abouttext {
-     position: relative;
-     left: -1rem;
+     padding: 0 0 1rem;
  }
 
+ .abouttext p {
+     margin-bottom: 0;
+ }
  p, li {
-     font-size: 1.60rem;
+     font-size: 1rem;
  }
 
  h1 {
-     font-size: 2rem;
+     font-size: 1.5rem;
  }
  
  h2 {
-     font-size: 1.80rem;
+     font-size: 1.3rem;
  }
 
  p, a, li {
