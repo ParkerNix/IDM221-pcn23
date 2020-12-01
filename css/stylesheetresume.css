@@ -28,7 +28,7 @@
 
  .home {
      position: relative;
-     bottom: .85rem;
+     bottom: 1.15rem;
  }
 
  html {
@@ -93,20 +93,30 @@
      background-color: #8989ff;
  }
 
+ .resumebody {
+     position: relative;
+     top: 4.75rem;
+ }
+
  .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
      padding: .01rem 1rem;
  }
 
- .Intro, .Skills { background-color: #b1f4b6; }
+ .Intro, .Skills { 
+     background-color: #b1f4b6;
+}
  
- .Intro { text-align: center;
-    position: relative; 
-    top: 4.75rem;
+ .Intro { 
+     text-align: center;
  }
 
- .Education, .Volunteer { background-color: rgb(148, 221, 221); }
+ .Education, .Volunteer { 
+     background-color: rgb(148, 221, 221); 
+}
 
- .Experience { background-color: #8989ff; }
+ .Experience { 
+     background-color: #8989ff; 
+}
 
  nav {
      position: fixed;
@@ -170,7 +180,7 @@
  }
 
  h1 {
-     font-size: 1.5rem;
+     font-size: 1.7rem;
  }
  
  h2 {
