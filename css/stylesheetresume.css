@@ -45,7 +45,7 @@
 
  a:active { color: rgb(0, 217, 255); }
  
- a.navabout:active  { color: coral; }
+ a.navabout:active  { color: rgb(148, 221, 221); }
 
  a.navresume:active { color: #b1f4b6; }
 
@@ -72,7 +72,7 @@
  }
 
  .workbody h1, .workbody h2, .workbody p, .casestudy h1, .casestudy h2, .casestudy p {
-     padding: 1rem;
+     padding: 2rem;
  }
  
  .workbody img, .casestudy img {
@@ -82,7 +82,7 @@
  }
 
  .task, .middle, .ending {
-    margin: 0 0 1rem;
+    margin: 0 0 2rem;
  }
 
  .teado p {
@@ -98,8 +98,12 @@
      top: 4.75rem;
  }
 
- .Intro, .Skills, .Education, .Volunteer, .Experience, .abouttext {
-     padding: .01rem 1rem;
+ #top {
+     margin-top: 1.3rem;
+ }
+
+ .Intro, .Skills, .Education, .Volunteer, .Experience {
+     padding: 1rem 2rem;
  }
 
  .Intro, .Skills { 
@@ -116,6 +120,10 @@
 
  .Experience { 
      background-color: #8989ff; 
+}
+
+.Skills {
+    padding-bottom: 1.9rem;
 }
 
  nav {
@@ -169,11 +177,12 @@
      margin-bottom: 4.75rem;
  }
  .aboutme {
-     padding: .5rem 1rem 0;
+     padding: 1.4rem 2rem 0;
  }
 
  .abouttext {
-     padding: 0 0 1rem;
+     padding: 0 0 2rem;
+     margin-top: 1rem;
  }
 
  .abouttext p {
