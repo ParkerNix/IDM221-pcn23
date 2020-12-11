@@ -1,28 +1,28 @@
 /*fonts*/
 @font-face {
   font-family: 'open_sans';
- src: url('../Fonts/opensans-regular-webfont.woff2') format('woff2');
+ src: url('../fonts/opensans-regular-webfont.woff2') format('woff2');
  font-weight: normal;
  font-style: normal;
 }
  
 @font-face {
  font-family: 'open_sans';
- src: url('../Fonts/opensans-bold-webfont.woff2') format('woff2');
+ src: url('../fonts/opensans-bold-webfont.woff2') format('woff2');
  font-weight: bold;
  font-style: normal;
 }
 
 @font-face {
  font-family: 'poppins';
- src: url('../Fonts/poppins-regular-webfont.woff2') format('woff2');
+ src: url('../fonts/poppins-regular-webfont.woff2') format('woff2');
  font-weight: normal;
  font-style: normal;
 }
 
 @font-face {
  font-family: 'poppins';
- src: url('../Fonts/poppins-bold-webfont.woff2') format('woff2');
+ src: url('../fonts/poppins-bold-webfont.woff2') format('woff2');
  font-weight: bold;
  font-style: normal;
 }
@@ -79,6 +79,16 @@ ul.navlist {
  text-align: center;
  position: relative;
  top: 10rem;
+ background-color: rgba(68, 68, 68, 0.466);
+ padding: 2rem;
+}
+
+.welcome {
+  margin-top: 0;
+}
+
+.hey {
+  margin-bottom: 0;
 }
 
 /*about me*/
@@ -146,10 +156,6 @@ ul.navlist {
 }
 
 /*work and case studies*/
-.work p, .work h1, .work h2, .parker, .greeting, .casestudy {
- color: white;
-}
-
 .work h2, .casestudy h2 {
  margin: 1rem 0 0
 }
@@ -189,6 +195,14 @@ ul.navlist {
 }
 
 /*general*/
+.work h1, .parker, .greeting {
+ color: white;
+}
+
+.work p, .work h2, .casestudy {
+  color: black;
+}
+
 a {
  text-decoration: none;
 }
