@@ -30,18 +30,18 @@
 /*setup*/
 html {
  box-sizing: border-box; 
- padding: 1rem; 
  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
 
 body {
- background-image: url('../Images/starz.png');
  padding: 0;
  margin: 0;
 }
 
 /*nav bar*/
 nav {
+ display: flex;
+ justify-content: center;
  position: fixed;
  z-index: 10;
  background-color: rgba(255, 255, 255, 0.705);
@@ -71,15 +71,13 @@ ul.navlist {
 
 /*home*/
 .home {
- position: relative;
- bottom: 1.15rem;
+ background-color: lightyellow;
 }
 
 .greeting {
  text-align: center;
  position: relative;
  top: 10rem;
- background-color: rgba(68, 68, 68, 0.466);
  padding: 2rem;
 }
 
@@ -92,6 +90,10 @@ ul.navlist {
 }
 
 /*about me*/
+body.aboutpage {
+  background-color: rgb(148, 221, 221);
+}
+
 .about {
  margin: 0;
 }
@@ -122,6 +124,10 @@ ul.navlist {
 }
 
 /*resume*/
+body.resumepage {
+  background-color: #b1f4b6;
+}
+
 .resumebody {
  position: relative;
  top: 4.75rem;
@@ -166,6 +172,7 @@ ul.navlist {
 
 .workbody, .casestudy {
  padding: 4.1rem 0 0;
+ background-color: lightyellow;
 }
 
 .workbody h1, .workbody h2, .casestudy h1, .casestudy h2 {
@@ -195,11 +202,7 @@ ul.navlist {
 }
 
 /*general*/
-.work h1, .parker, .greeting {
- color: white;
-}
-
-.work p, .work h2, .casestudy {
+.work p, .work h2, .casestudy, .parker, .greeting  {
   color: black;
 }
 
