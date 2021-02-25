@@ -40,9 +40,6 @@ body {
 
 /*nav bar*/
 nav {
- display: flex;
- justify-content: center;
- position: fixed;
  z-index: 10;
  background-color: rgba(255, 255, 255, 0.705);
 }
@@ -166,12 +163,15 @@ body.resumepage {
  margin: 1rem 0 0
 }
 
+.workbody h1 {
+  margin: 2rem 0 1rem;
+}
+
 .work p, .casestudy p {
  margin: 0 0 1rem;
 }
 
-.workbody, .casestudy {
- padding: 4.1rem 0 0;
+.work, .casestudy {
  background-color: lightyellow;
 }
 
@@ -199,6 +199,51 @@ body.resumepage {
 
 .first, .redesign, .teado, .task, .middle , .ending {
  background-color: #8989ff;
+}
+
+/*mobile stuff*/
+@media (min-width: 240px) {
+  nav {
+    position: fixed;
+  }
+}
+
+/*tablet stuff*/
+@media (min-width: 520px) {
+
+}
+
+/*large screen stuff*/
+@media (min-width: 980px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    position: static;
+  }
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+  'first first redesign'
+  'teado . redesign';
+  gap: 1rem 1rem;
+  margin: 0 1rem 1rem;
+}
+
+.first {
+  grid-area: first;
+}
+
+.redesign {
+  grid-area: redesign;
+  align-self: stretch;
+}
+
+.teado {
+  grid-area: teado;
+}
 }
 
 /*general*/
